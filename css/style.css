@@ -1,0 +1,265 @@
+/* Home Page Css Starts */
+#background{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+}
+#homepara1{
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 150px;
+    margin-right: 600px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#homepara2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 700px;
+
+}
+#homepara3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 600px;
+}
+@media(max-width: 900px) {
+    #homepara1{ 
+    font-size: 40px;
+    margin-left: 10px;
+    }
+    #homepara2{
+      margin-left: 50px;
+      font-size: 20px;
+    }
+    #homepara3{
+      margin-left: 50px;
+      font-size: 12px;
+    }
+}
+@media(max-width: 900px) {
+    #homepara1{
+      
+    }
+}
+/* Home Page Css Ends */
+
+/* Gallery Css Starts */
+
+@media(max-width: 990px) {
+    #img1 {
+      margin: auto;
+
+    }
+    #img2 {
+      margin: auto;
+
+    }
+    #img3 {
+      margin: auto;
+
+    }
+    #img4 {
+      margin: auto;
+
+    }
+    #img5 {
+      margin: auto;
+
+    }
+    #img6 {
+      margin: auto;
+
+    }
+    #img7 {
+      margin: auto;
+
+    }
+    #img8 {
+      margin: auto;
+
+    }
+    #img9 {
+      margin: auto;
+
+    }
+    #img10 {
+      margin: auto;
+
+    }
+    #img11 {
+      margin: auto;
+
+    }
+    #img12 {
+      margin: auto;
+
+    }
+    #img13 {
+      margin: auto;
+
+    }
+    #img14 {
+      margin: auto;
+
+    }
+    #img15 {
+      margin: auto;
+
+    }
+    #img16 {
+      margin: auto;
+
+    }
+  }
+
+/* Gallery Css Ends */
+
+/* Counter Css Starts */
+
+.counter{
+    margin-top: 30px;
+    padding: 30px 20px;
+    border: 5px solid #000;
+    border-radius: 50px 0 50px 0;
+    text-align: center;
+}
+.counter .counter-icon{
+    display: block;
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 25px;
+}
+.counter .counter-value{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    line-height: 80px;
+    background: #000;
+    border-radius: 0 50px 0 50px;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.counter .title{
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+.counter.yellow{ border-color: #cbb322; }
+.counter.blue{ border-color: #23b0d7; }
+.counter.green{ border-color: #18b335; }
+.counter.yellow .counter-value{ background: #cbb322; }
+.counter.blue .counter-value{ background: #23b0d7; }
+.counter.green .counter-value{ background: #18b335; }
+@media only screen and (max-width: 1199px) and (min-width: 990px){
+    .counter .counter-value {
+        width: 150px;
+        height: 60px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+@media only screen and (max-width: 990px){
+    .counter{ margin-bottom: 20px; }
+}
+/* Counter Css Ends */
+
+/* contact us start  */
+#li{
+    background-color: rgb(52, 48, 29);
+    width: 75px;
+    height: 2px;
+    margin-left: -0.5px;
+    
+  }
+  /* contact us end  */
+
+  /* footer work start  */
+
+  footer{
+    background: rgb(24, 26, 121);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+}
+#unorder{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+#icon1{
+    color: rgb(224, 221, 221);
+    padding: 10px;
+    font-size: 25px;
+    transition: color .8s
+}
+#icon2{
+    color: rgb(224, 221, 221);
+    padding: 10px;
+    font-size: 25px;
+    transition: color .8s
+}
+#icon3{
+    color: rgb(224, 221, 221);
+    padding: 10px;
+    font-size: 25px;
+    transition: color .8s
+}
+#icon4{
+    color: rgb(224, 221, 221);
+    padding: 10px;
+    font-size: 25px;
+    transition: color .8s
+}
+#icon5{
+    color: rgb(224, 221, 221);
+    padding: 10px;
+    font-size: 25px;
+    transition: color .8s
+}
+
+#icon1:hover {
+    color: rgb(81, 81, 255);
+}
+#icon2:hover {
+    color: rgb(255, 0, 85);
+}
+#icon3:hover {
+    color: rgb(21, 255, 0);
+}
+#icon4:hover {
+    color: rgb(255, 0, 0);
+}
+#icon5:hover {
+    color: rgb(116, 116, 255);
+}
+.footer-bottom{
+    background: rgb(10, 10, 95);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+ 
+}
+.footer-bottom p{
+    padding-top: 10px;
+    color: rgb(240, 240, 240);
+   
+
+  
+    
+}
+span{
+   opacity: 75%;
+   font-weight: bold;
+   cursor: pointer;
+   
+   
+}
